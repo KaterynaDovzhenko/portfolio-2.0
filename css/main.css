@@ -145,19 +145,6 @@ img {
     width: 100%;
 }
 
-.span-bg {
-    position: absolute;
-    cursor: default;
-    top: -330px;
-    left: -418px;
-    color: var(--accent);
-    font-family: Rufina;
-    font-size: 520px;
-    line-height: normal;
-    letter-spacing: 20px;
-    z-index: 0;
-    text-transform: uppercase;
-}
 
 .social-media-list {
     position: relative;
@@ -653,14 +640,6 @@ img {
     transform: translateX(-5px);
 }
 
-.works__span-bg {
-    color: rgba(154, 173, 220, 0.106);
-    position: absolute;
-    top: 1530px;
-    left: -408px;
-    transform: rotate(34deg);
-    z-index: -1;
-}
 
 .linktree{
     width: 31px;
