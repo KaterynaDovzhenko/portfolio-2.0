@@ -321,7 +321,7 @@ canvas{
 
 .app__after::after {
     filter: brightness(65%);
-    background-color: var(--third-color);
+    background-color: var(--sixth-color);
     width: 473px;
     height: 750px;
     top: -68px;

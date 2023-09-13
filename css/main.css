@@ -18,9 +18,10 @@ body {
     --bg-color: #121212;
     --main-color-text: #BEC5D4;
     --secondary-accent-color: #131924;
-    --third-color: #9AADDC;
+    --third-color: #8896c0;
     --forth-color: #1A1D23;
     --fifth-color: #8894AD;
+    --sixth-color: #495168;
     --color-text: #868b94;
     --footer: #989eaa93;
     --box-shadow: 6px 8px 7px 0px rgba(0, 0, 0, 0.25);
@@ -628,7 +629,7 @@ img {
 }
 
 .btn__works:hover::before {
-    transform: translateX(10px);
+    transform: translateX(13px);
 }
 
 .btn__works::after {
@@ -675,14 +676,14 @@ canvas{
 
 .title__coming-soon{
     padding-left: 350px;
-    padding-top: 320px;
+    padding-top: 350px;
     pointer-events: none;
 }
 
 .span__coming-soon{
         pointer-events: none;
     position: absolute;
-        top: 455px;
+        top: 470px;
         left: 1005px;
     margin-bottom: 0;
 }
