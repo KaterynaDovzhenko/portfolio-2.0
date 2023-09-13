@@ -349,9 +349,6 @@ canvas{
 .ideas__section-title{
     margin-bottom: 20px;
 }
-.ideas .section-title{
-    margin-bottom: 20px;
-}
 
 .ideas .paragraph {
     margin-bottom: 70px;
@@ -378,10 +375,8 @@ canvas{
     opacity: 0;
     width: 60px;
     height: 60px;
-    background: lightgrey;
 
     transition: .6s cubic-bezier(.44, .5, .55, .56), .5s background-color cubic-bezier(.44, .5, .55, .56), .5s background-image cubic-bezier(.44, .5, .55, .56);
-    background: rgba(255, 255, 255, 0.596);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     display: flex;
@@ -412,9 +407,12 @@ canvas{
  .main__btn-cotainer-ideas:hover .card {
     opacity: 1;
     border-radius: 1px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    background: rgba(255, 255, 255, 0.2);
+
 } 
+ .main__btn-cotainer-ideas:hover {
+
+     box-shadow: -4px -4px 8px 0px rgba(0, 0, 0, 0.147) inset;
+ }
 
 .main__btn-cotainer-ideas:hover .ideas__text-btn {
       opacity: 0;

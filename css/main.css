@@ -625,6 +625,7 @@ img {
     left: 510px;
     z-index: -1;
     background-color: var(--third-color);
+
     transition: transform 0.7s cubic-bezier(.44, .5, .55, .56);
 }
 
@@ -665,6 +666,7 @@ img {
     width: 31px;
 }
 
+/* COMING SOON  */
 canvas{
     position: absolute;
     top: 0;
