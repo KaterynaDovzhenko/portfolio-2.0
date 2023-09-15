@@ -24,7 +24,7 @@ body {
     --fifth-color: #9eabc7;
     --sixth-color: #495168;
     --color-text: #868b94;
-    --footer: #989eaa93;
+    --footer: #bdc5d693;
     --box-shadow: 6px 8px 7px 0px rgba(0, 0, 0, 0.25);
 
     --transition-color: color 0.75s ease-out;
@@ -325,6 +325,7 @@ img {
 .footer__title.title-third {
     color: var(--footer);
     margin-bottom: 0;
+    font-weight: 400;
 }
 
 

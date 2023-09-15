@@ -556,7 +556,7 @@ canvas{
     -webkit-mask: var(--m);
     mask: var(--m);
 
-    filter: brightness(70%);
+    filter: brightness(80%);
     transition: .7s linear;
     cursor: pointer;
 }
@@ -569,7 +569,9 @@ canvas{
 .skills__picture-container::after{
     content: '';
     position: absolute;
-    background-color: var(--forth-color);
+    background-color: var(--sixth-color);
+    filter: brightness(70%);
+    
     width: 510px;
     height: 671px;
     top: -50px;
