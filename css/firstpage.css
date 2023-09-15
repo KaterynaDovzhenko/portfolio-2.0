@@ -103,7 +103,7 @@ canvas{
 /* ======================= ABOUT SECTION ======================= */
 
 .about{
-    background: linear-gradient(to left, var(--third-color)0 40%, var(--secondary-accent-color)0 60% ); 
+    background: linear-gradient(to left, var(--fifth-color)0 40%, var(--secondary-accent-color)0 60% ); 
 }
 
 
@@ -281,7 +281,7 @@ canvas{
 .works__img{
     width: 435px;
     height: 619px;
-    filter: brightness(65%);
+    filter: brightness(85%);
     transition: filter 0.8s ease-in-out, transform 0.9s ease-in-out;
     transform: scale(1);
 }
@@ -299,7 +299,7 @@ canvas{
 .text-block{
     letter-spacing: .5px;
     line-height: 130%;
-    color: var(--color-text);
+    color: var(--main-color-text);
     text-align: right;
     display: inline-flex;
     flex-direction: column;
@@ -505,7 +505,7 @@ canvas{
 }
 
 .skills__list li {
-    color: var(--color-text);
+    color: var(--main-color-text);
     line-height: normal;
     margin-bottom: 25px;
 }
@@ -522,7 +522,7 @@ canvas{
 
 
 .skills__title{
-    color: var(--color-text);
+    color: var(--main-color-text);
     text-align: start;
     font-weight: 400;
     font-family: Rufina;

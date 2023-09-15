@@ -14,13 +14,14 @@ body {
 
 :root {
     --main-font: 'Rufina', sans-serif;
-    --accent: #5984F0;
+    /* --accent: #6891f9; 5984F0 */
+    --accent: #6891f9;
     --bg-color: #121212;
     --main-color-text: #BEC5D4;
     --secondary-accent-color: #131924;
     --third-color: #8896c0;
     --forth-color: #1A1D23;
-    --fifth-color: #8894AD;
+    --fifth-color: #9eabc7;
     --sixth-color: #495168;
     --color-text: #868b94;
     --footer: #989eaa93;
