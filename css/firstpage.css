@@ -28,16 +28,23 @@ canvas{
 
 .hero__title{
     position: relative;
-    padding-left: 70px;
     margin-bottom: 290px;
+    padding-left: 50px;
 
     font-family: var(--main-font), sans-serif;
     text-transform: uppercase;
     color: var(--accent);
-    font-size: 100px;
+    font-size: 45px;
     font-weight: 400;
 
     cursor: default;
+}
+
+@media (min-width: 1279px) {
+    .hero__title {    
+        font-size: 100px;
+        padding-left: 70px;
+    }
 }
 
 .hero__span-drag{
@@ -52,8 +59,14 @@ canvas{
     color: var(--accent-opacity);
     position: absolute;
     bottom: -39px;
-    right: 75px;
+    right: 53px;
     z-index: -1;
+}
+
+@media (min-width: 767px) {
+    .hero__span {
+        right: 75px;
+    }
 }
 
 
@@ -407,25 +420,13 @@ canvas{
     justify-content: center;
 }
 
-.card .telega {
-    opacity: 0;
-    transition: .5s cubic-bezier(.44, .5, .55, .56);
-    fill: #3175a5;
-}
-
-.card .linktree {
+.card .telega,
+.card .linktree,
+.card .linkedin {
     opacity: 0;
     transition: .5s cubic-bezier(.44, .5, .55, .56);
     fill: var(--bg-color);
 }
-
-
-.card .linkedin {
-    opacity: 0;
-    transition: .5s cubic-bezier(.44, .5, .55, .56);
-    fill: #3478B4;
-} 
-
 
  .main__btn-cotainer-ideas:hover .card {
     opacity: 1;

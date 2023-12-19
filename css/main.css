@@ -35,13 +35,43 @@ body {
 
 }
 
+@media (min-width: 430px) {
+    .section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .section {
+        padding-top: 150px;
+    }
+
+}
+
 .container {
-    max-width: 1440px;
+    max-width: 767px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
 
 /* ======================= WILL_CHANGE ======================= */
 .content,
@@ -84,10 +114,16 @@ img {
 .section-title {
     color: var(--main-color-text);
     font-family: var(--main-font);
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 80px;
     font-weight: 400;
+}
+
+@media (min-width: 1279px) {
+    .section-title {
+        font-size: 40px;
+    }
 }
 
 .section {
@@ -332,8 +368,14 @@ img {
 /* MENU BAR NAV */
 
 .main-nav {
-    padding: 70px 0;
+    padding: 60px 0 140px ;
 
+}
+
+@media (min-width: 767px) {
+    .main-nav {
+        padding: 70px 0;
+    }
 }
 
 .top-left-container {
@@ -344,6 +386,7 @@ img {
     font-family: Rufina, sans-serif;
     font-size: 20px;
 }
+
 
 .top-left-container a {
     color: var(--accent);
@@ -447,13 +490,18 @@ img {
 }
 
 .modal__social-list {
-
     display: flex;
     justify-content: flex-end;
     gap: 30px;
     font-family: Rufina;
     font-size: 15px;
     text-transform: uppercase;
+}
+
+@media (min-width: 767px) {
+    .modal__social-list {
+        gap: 15px;
+    }
 }
 
 
@@ -468,17 +516,30 @@ img {
 
 
 .modal__container {
-    padding: 60px 120px;
+    padding: 60px;
+}
+
+@media (min-width: 767px) {
+    .modal__container {
+        padding: 60px 120px;
+    }
 }
 
 .top-container {
     display: flex;
     justify-content: flex-start;
+    align-items: baseline;
 }
 
 .list-nav {
     text-align: center;
-    margin: 50px auto;
+    margin: 134px auto;
+}
+
+@media (min-width: 767px) {
+    .list-nav {
+        margin: 50px auto;
+    }
 }
 
 .nav-link {

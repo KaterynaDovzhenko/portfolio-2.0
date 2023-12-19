@@ -1,3 +1,5 @@
+/* ///////////////      MASFOR      ///////////// */
+
 .main-section{
     position: relative;
     margin-bottom: 80px;
@@ -52,9 +54,13 @@ p{
 }
 
 .colors__masfor-item{
+    overflow: hidden;
+    position: relative;
     width: 100px;
     height: 100px;
 }
+
+
 
 .colors__masfor li:first-child {
     background-color: #282129;
@@ -68,6 +74,38 @@ p{
 }
 .colors__masfor li:last-child {
     background-color: #A77545;
+}
+
+.colors__masfor-id-color{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    font-size: 16px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: var(--transition-move);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.colors__masfor > .colors__masfor-item:not(:first-child) > .colors__masfor-id-color > p{
+    color: var(--forth-color);
+}
+
+
+
+
+.colors__masfor-item:hover .colors__masfor-id-color,
+.colors__masfor-item:focus .colors__masfor-id-color {
+    transform: translateY(0);
+}
+
+.colors__masfor-item:hover,
+.colors__masfor-item:focus{
+    cursor: pointer;
 }
 
 .demonstration > .container{
